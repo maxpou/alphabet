@@ -20,8 +20,8 @@ function getWords (fileName) {
 // getWords('./words/short.txt')
 getWords('./words/fr.txt')
   .then(words => {
-    const matrix = nextLetterRelative('a', words)
-    // console.log(matrix)
+    const matrix = wordsStats.nextLetterRelative('a', words)
+    console.log(matrix)
 
     // const wordsList = wordsStats.getStatsFirstLetterRelative(words)
     // console.log(wr.weightedRand(wordsList))
