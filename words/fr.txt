@@ -1304,7 +1304,7 @@ apathie
 apathique
 apatride
 apercevoir
-aperÁu
+aperçu
 aperitif
 apesanteur
 aphasie
@@ -1344,7 +1344,6 @@ apparente
 appariteur
 apparition
 appartement
-appartement)
 appartements
 appartenaient
 appartenait
@@ -1739,7 +1738,6 @@ asservi
 asservir
 asseyez-vous
 assez
-assez!
 assiduite
 assieger
 assiette
@@ -2169,7 +2167,6 @@ aviez
 Avignon
 avilir
 avion
-avion)
 avions
 aviron
 avis
@@ -2288,7 +2285,7 @@ balance
 balancer
 Balanchine
 balancier
-balanÁoire
+balançoire
 balatum
 balaye
 balayer
@@ -2627,7 +2624,7 @@ berner
 Berry
 Bertin
 Bertrand
-BesanÁon
+Besançon
 besogne
 besogner
 besoin
@@ -3347,7 +3344,7 @@ calculer
 calculette
 calculs
 cale en
-caleÁon
+caleçon
 Caledonie
 caledonienne
 calendrier
@@ -4419,7 +4416,7 @@ colereux
 colerique
 Colette
 colibri
-colimaÁon
+colimaçon
 colin
 colis
 collaborateur
@@ -4538,7 +4535,7 @@ commencent
 commencer
 commencera
 commenceront
-commenÁons
+commençons
 comment
 commentaire
 commentaires
@@ -4550,8 +4547,8 @@ commente
 commenter
 commerage
 commerages
-commerÁant
-commerÁants
+commerçant
+commerçants
 commerce
 commerces
 commercial
@@ -4619,7 +4616,7 @@ compare
 comparee
 comparer
 compares
-comparez!
+comparez
 compartiment
 compartiments
 compas
@@ -4797,7 +4794,7 @@ conclusif
 conclusion
 conclusions
 conclut
-conÁoit
+conçoit
 concombre
 concordance
 concordantes
@@ -4811,10 +4808,10 @@ concrétes
 concretion
 concretiser
 concrets
-conÁu
+conçu
 concubinage
-conÁue
-conÁues
+conçue
+conçues
 concupiscence
 concupiscent
 concurrence
@@ -4824,7 +4821,7 @@ concurrente
 concurrentes
 concurrentiel
 concurrents
-conÁus
+conçus
 condamnable
 condamnant
 condamnation
@@ -5259,7 +5256,7 @@ contrecoup
 contredire
 contredit
 contrée
-contrefaÁon
+contrefaçon
 contrefait
 contrepartie
 contre-pied
@@ -5683,7 +5680,7 @@ crépi
 crépir
 crépiter
 crépu
-crépus)
+crépus
 crépuscule
 cresson
 crête
@@ -5945,7 +5942,7 @@ deale
 dealers
 Deauville
 débâcle
-déballe!
+déballe
 débander
 débarbouiller
 débarcadére
@@ -6006,7 +6003,7 @@ débute
 débuté
 débuter
 débuts
-deÁà
+deçà
 décacheté
 décacheter
 décade
@@ -6147,9 +6144,9 @@ décrire
 décrit
 décrocher
 décroître
-déÁu
-déÁue
-déÁus
+déçu
+déçue
+déçus
 dédaigner
 dédaigneusement
 dédaigneux
@@ -6435,8 +6432,8 @@ dénombrer
 dénomination
 dénommé
 dénommer
-dénonÁaient
-dénonÁait
+dénonçaient
+dénonçait
 dénonce
 dénoncé
 dénoncée
@@ -8623,7 +8620,7 @@ et
 étamer
 étanche
 étancher
-étanÁonner
+étançonner
 étang
 étant
 étape
@@ -8764,7 +8761,7 @@ Evangile
 évaporer
 évasé
 évasion
-»ve
+Éve
 évêché
 éveillé
 éveiller
@@ -9108,9 +9105,9 @@ facilité
 facilitée
 faciliter
 facilités
-faÁon
-faÁonner
-faÁons
+façon
+façonner
+façons
 facteur
 facteurs
 faction
@@ -9380,7 +9377,6 @@ fêté
 fêter
 fêtes
 feu
-feu!
 feuillage
 feuille
 feuilles
@@ -9397,7 +9393,7 @@ fiabilité
 fiable
 fiables
 fiacre
-fianÁailles
+fiançailles
 fiancé
 fiancer
 fiasco
@@ -9846,11 +9842,11 @@ Framatome
 framboise
 framboisier
 franc
-franÁais
-FranÁais
-franÁaise
-FranÁaise
-franÁaises
+français
+Français
+française
+Française
+françaises
 France
 Francfort
 franche
@@ -9866,12 +9862,12 @@ Francis
 franciscain
 Francisco
 Franck
-franc-maÁon
-franc-maÁonnerie
-franc-maÁonnique
+franc-maçon
+franc-maçonnerie
+franc-maçonnique
 franco
-FranÁois
-FranÁoise
+François
+Françoise
 francophone
 francophones
 francophonie
@@ -10120,8 +10116,8 @@ garantissant
 garantit
 garce
 Garcia
-garÁon
-garÁons
+garçon
+garçons
 Gard
 gardait
 gardant
@@ -10332,7 +10328,7 @@ glacer
 glacial
 glacier
 glaciére
-glaÁon
+glaçon
 glaise
 glaive
 glande
@@ -12171,7 +12167,7 @@ irrégularités
 irrégulier
 irréligion
 irrémédiable
-irremplaÁable
+irremplaçable
 irréparable
 irrépressible
 irréprochable
@@ -12636,7 +12632,7 @@ lancinant
 lancinante
 lanciner
 land
-l‰nder
+länder
 landes
 Lang
 langage
@@ -12717,8 +12713,8 @@ Lech
 lécher
 léche-vitrines
 Leclerc
-leÁon
-leÁons
+leçon
+leçons
 lecteur
 lecteurs
 lectrice
@@ -12920,7 +12916,7 @@ lilas
 Lille
 lima
 Lima
-limaÁon
+limaçon
 lime
 limer
 liminaire
@@ -13202,10 +13198,10 @@ machines
 mâchoire
 mâchonner
 macintosh
-maÁon
-maÁonnerie
-maÁonnique
-maÁons
+maçon
+maçonnerie
+maçonnique
+maçons
 macro
 madame
 Madani
@@ -13330,7 +13326,7 @@ malencontreux
 malentendant
 malentendu
 malentendus
-malfaÁon
+malfaçon
 malfaiteur
 malfaiteurs
 malgré
@@ -14387,7 +14383,7 @@ mouvementé
 mouvements
 mouvoir
 moyen
-Moyen ¬ge
+Moyen Âge
 moyenâgeux
 moyennant
 moyenne
@@ -14405,7 +14401,6 @@ mugissement
 mule
 mules
 Mulhouse
-M¸ller
 multicolore
 multicolores
 multiforme
@@ -15917,11 +15912,11 @@ percer
 percevoir
 perche
 percher
-perÁoit
-perÁoivent
-perÁu
-perÁue
-perÁus
+perçoit
+perçoivent
+perçu
+perçue
+perçus
 percussions
 perd
 perdait
@@ -16453,7 +16448,7 @@ poignée
 poignée de main
 poignet
 poil
-poinÁon
+poinçon
 poindre
 poing
 point
@@ -16809,7 +16804,7 @@ précises
 précision
 précisions
 précoce
-préconÁu
+préconçu
 préconisait
 préconise
 préconisé
@@ -17394,7 +17389,7 @@ prouver
 Prouvost
 provenance
 provenant
-provenÁal
+provençal
 Provence
 provenir
 proverbe
@@ -17775,7 +17770,7 @@ ramper
 rancard
 rancœur
 rancœurs
-ranÁon
+rançon
 rancunier
 randonnée
 rang
@@ -18028,8 +18023,8 @@ reclassement
 reclus
 réclusion
 réclusionnaire
-reÁoit
-reÁoivent
+reçoit
+reçoivent
 récolte
 récolter
 récoltes
@@ -18104,8 +18099,8 @@ recteurs
 rectification
 rectifier
 rectorat
-reÁu
-reÁue
+reçu
+reçue
 recueil
 recueille
 recueilli
@@ -18113,7 +18108,7 @@ recueillies
 recueillir
 recueillis
 recueils
-reÁues
+reçues
 recul
 reculade
 recule
@@ -18124,10 +18119,10 @@ récupération
 récupére
 récupéré
 récupérer
-reÁus
+reçus
 récuse
 récuser
-reÁut
+reçut
 recyclage
 rédacteur
 rédacteur en chef
@@ -20290,13 +20285,13 @@ soumises
 soumission
 soupape
 soupapes
-soupÁon
-soupÁonne
-soupÁonné
-soupÁonner
-soupÁonnés
-soupÁonneux
-soupÁons
+soupçon
+soupçonne
+soupçonné
+soupçonner
+soupçonnés
+soupçonneux
+soupçons
 soupe
 souper
 soupeser
@@ -20651,7 +20646,6 @@ suffisantes
 suffisants
 suffisent
 suffit
-suffit!
 suffixe
 suffocation
 suffoquer
@@ -21305,7 +21299,7 @@ tiennent
 tiennes
 tiens
 tient
-tierÁage
+tierçage
 tiers
 tige
 tigre
@@ -21898,7 +21892,7 @@ typographie
 typographique
 tyran
 tyrannie
-U.S.A.
+USA
 ukase
 Ukraine
 ukrainien

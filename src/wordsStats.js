@@ -46,13 +46,14 @@ exports.getStatsLengthRelative = function (words) {
  * 
  * 
  * @param {string} letter one letter
- * @param {string} words list of words
+ * @param {string[]} words list of words
  * @returns {Object} matrix
  * @returns {string} Object.key - a letter
  * @returns {string} Object.value - probability to get this letter after the letter pass in params
  */
 exports.nextLetterRelative = function (letter, words) {
-  const regex = new RegExp(letter + "([\\w])", 'g') // ➡ /a([\w])/g
+  // ➡ i.e.:   /a([\w])/g
+  const regex = new RegExp(letter + "([\\w])", 'g')
   const nextLetters = words
     .map(word => word.match(regex))
     .filter(l => l) // remove null

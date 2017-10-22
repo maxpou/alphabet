@@ -1,6 +1,7 @@
 const fs = require('fs')
-const wordsStats = require('./wordsStats.js')
-const wr = require('./weightRand.js')
+const ws = require('./src/wordsStats')
+const wr = require('./src/weightRand.js')
+const alphabet = require('./src/alphabet.js')
 
 function getWords (fileName) {
   return new Promise((resolve, reject) => {
@@ -13,20 +14,31 @@ function getWords (fileName) {
   })
 }
 
-// return matrix
-
 
 
 // getWords('./words/short.txt')
 getWords('./words/fr.txt')
+  .then(words => words.filter(word => word.toLowerCase() === word))
   .then(words => {
-    const matrix = wordsStats.nextLetterRelative('a', words)
-    console.log(matrix)
+    // const matrix = ws.nextLetterRelative('a', words)
+    // console.log(matrix)
 
-    // const wordsList = wordsStats.getStatsFirstLetterRelative(words)
+    const allLetters = alphabet.getLetters(words)
+    // console.log(allLetters)
+
+    const matrix = allLetters.map(letter => {
+      return {
+        letter: letter,
+        stats: ws.nextLetterRelative(letter, words)
+      }
+    })
+    console.log(matrix)
+    
+
+    // const wordsList = ws.getStatsFirstLetterRelative(words)
     // console.log(wr.weightedRand(wordsList))
 
-    // const wordsLength = wordsStats.getStatsLengthRelative(words)
+    // const wordsLength = ws.getStatsLengthRelative(words)
     // console.log(wr.weightedRand(wordsLength))
     
   })
