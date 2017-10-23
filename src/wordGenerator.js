@@ -2,7 +2,13 @@ const ws = require('./wordsStats')
 const wr = require('./weightRand.js')
 const alphabet = require('./alphabet.js')
 
-exports.wordGenerator = function (words) {
+/**
+ *
+ * @param {string[]} words original data set
+ * @param {number} [quantity=1] quantity of words to create
+ * @returns {string[]} list of new words
+ */
+exports.wordsGenerator = function (words, quantity = 1) {
   const allLetters = alphabet.getLetters(words)
   const wordsLengthStats = ws.getStatsLengthRelative(words)
   const firstLetterStats = ws.getStatsFirstLetterRelative(words)
@@ -14,6 +20,12 @@ exports.wordGenerator = function (words) {
     }
   })
 
+  return Array
+    .apply(null, {length: quantity})
+    .map(word => wordGenerator(wordsLengthStats, firstLetterStats, lastLetterStats, allNextLetterStats))
+}
+
+const wordGenerator = function (wordsLengthStats, firstLetterStats, lastLetterStats, allNextLetterStats) {
   const newWordLength = wr.weightedRand(wordsLengthStats)
   const newWord = []
   newWord.length = newWordLength
@@ -29,7 +41,6 @@ exports.wordGenerator = function (words) {
       const previousLetter = newWord[(index - 1)]
       const nextLetterStats = allNextLetterStats.find(item => item.letter === previousLetter)
       nextLetter = wr.weightedRand(nextLetterStats.stats)
-      // console.log(nextLetter)
     }
     newWord[index] = nextLetter
   })

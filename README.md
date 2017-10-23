@@ -17,6 +17,20 @@ The word generated will follow the set statistics:
 node main.js
 ```
 
+```bash
+# Options:
+~/alphabet » node main.js --help
+
+  Usage: main [options]
+
+  Options:
+
+    -f, --file [fileName]    Define the dataset [fr]
+    -q, --quantity [number]  Words to create [5]
+    -h, --help               output usage information
+```
+
+
 ## Example of generated words
 
 *sitoretio*, *divar*, *dondi*, *andent*, *cuitex*, *ancilile*, *atlansezite*, *detindele*, *ancerein*
@@ -25,8 +39,8 @@ node main.js
 ## Todo
 
 - [x] Pass the file as argument
+- [x] Get more that 1 word (arguments)
 - [ ] Handle some random errors
 - [ ] Get more realistic words!!!
-- [ ] Get more that 1 word (arguments)
 - [ ] Document code
 - [ ] Unit test with Jest

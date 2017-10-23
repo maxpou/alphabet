@@ -5,10 +5,11 @@ var program = require('commander');
 
 program
   .option('-f, --file [fileName]', 'Define the dataset [fr]', 'fr')
+  .option('-q, --quantity [number]', 'Words to create [5]', 5)
   .parse(process.argv)
 
 gw.getWords('./data-set/' + program.file + '.txt')
   .then(words => words.filter(word => word.toLowerCase() === word))
   .then(words => {
-    console.log(wg.wordGenerator(words))
+    console.log(wg.wordsGenerator(words, program.quantity))
   })
