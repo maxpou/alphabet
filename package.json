@@ -1,10 +1,10 @@
 {
   "name": "alphabet",
   "version": "1.0.0",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint main.js src/"
+    "lint": "eslint index.js src/"
   },
   "author": "Maxence POUTORD <maxence.poutord@gmail.com>",
   "license": "MIT",

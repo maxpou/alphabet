@@ -14,12 +14,12 @@ The word generated will follow the set statistics:
 ## How to use it
 
 ```bash
-node main.js
+node index.js
 ```
 
 ```bash
 # Options:
-~/alphabet » node main.js --help
+~/alphabet » node index.js --help
 
   Usage: main [options]
 

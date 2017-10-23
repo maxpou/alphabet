@@ -1,7 +1,6 @@
+const program = require('commander')
 const gw = require('./src/getWords.js')
 const wg = require('./src/wordGenerator.js')
-
-var program = require('commander');
 
 program
   .option('-f, --file [fileName]', 'Define the dataset [fr]', 'fr')

@@ -3,6 +3,7 @@ const wr = require('./weightRand.js')
 const alphabet = require('./alphabet.js')
 
 /**
+ * Generate multiple words based on a set of words
  *
  * @param {string[]} words original data set
  * @param {number} [quantity=1] quantity of words to create
@@ -25,13 +26,20 @@ exports.wordsGenerator = function (words, quantity = 1) {
     .map(word => wordGenerator(wordsLengthStats, firstLetterStats, lastLetterStats, allNextLetterStats))
 }
 
+/**
+ * Generate a new word base on matrix pass into parameters
+ *
+ * @param {Object} wordsLengthStats (matrix)
+ * @param {Object} firstLetterStats (matrix)
+ * @param {Object} lastLetterStats (matrix)
+ * @param {Object} allNextLetterStats (matrix)
+ * @returns {string} 1 new generated word
+ */
 const wordGenerator = function (wordsLengthStats, firstLetterStats, lastLetterStats, allNextLetterStats) {
   const newWordLength = wr.weightedRand(wordsLengthStats)
-  const newWord = []
-  newWord.length = newWordLength
-  newWord.fill(null)
+  const newWord = Array.apply(null, {length: newWordLength})
 
-  newWord.forEach((letter, index) => {
+  newWord.map((letter, index) => {
     let nextLetter
     if (index === 0) {
       nextLetter = wr.weightedRand(firstLetterStats)
