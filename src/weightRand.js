@@ -1,8 +1,6 @@
 /**
- * 
- * 
- * @param {any} spec 
- * @param {number} [precision=100] 
+ * @param {any} spec
+ * @param {number} [precision=100]
  * @returns a matrix value
  */
 exports.weightedRand = function (matrix, precision = 100) {
