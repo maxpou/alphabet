@@ -24,9 +24,9 @@ node main.js
 
 ## Todo
 
+- [x] Pass the file as argument
 - [ ] Handle some random errors
 - [ ] Get more realistic words!!!
-- [ ] Pass the file as argument
 - [ ] Get more that 1 word (arguments)
 - [ ] Document code
 - [ ] Unit test with Jest

@@ -1,19 +1,13 @@
-const fs = require('fs')
+const gw = require('./src/getWords.js')
 const wg = require('./src/wordGenerator.js')
 
-function getWords (fileName) {
-  return new Promise((resolve, reject) => {
-    fs.readFile(fileName, 'utf8', (err, data) => {
-      if (err) {
-        reject(err)
-      }
-      resolve(data.split(/\r?\n/))
-    })
-  })
-}
+var program = require('commander');
 
-// getWords('./words/short.txt')
-getWords('./words/fr.txt')
+program
+  .option('-f, --file [fileName]', 'Define the dataset [fr]', 'fr')
+  .parse(process.argv)
+
+gw.getWords('./data-set/' + program.file + '.txt')
   .then(words => words.filter(word => word.toLowerCase() === word))
   .then(words => {
     console.log(wg.wordGenerator(words))

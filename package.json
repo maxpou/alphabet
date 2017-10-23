@@ -1,15 +1,25 @@
 {
   "name": "alphabet",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint main.js src/"
   },
-  "author": "",
+  "author": "Maxence POUTORD <maxence.poutord@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "standard": "^10.0.3"
-  }
+  },
+  "dependencies": {
+    "commander": "^2.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxpou/alphabet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxpou/alphabet/issues"
+  },
+  "homepage": "https://github.com/maxpou/alphabet#readme"
 }
