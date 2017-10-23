@@ -1,4 +1,4 @@
-# Alphabet
+# Alphabet
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -22,9 +22,11 @@ node main.js
 *sitoretio*, *divar*, *dondi*, *andent*, *cuitex*, *ancilile*, *atlansezite*, *detindele*, *ancerein*
 
 
-## Todo
+## Todo
 
-- [] Handle some random errors
-- [] Get more realistic words!!!
-- [] Pass the file as argument
-- [] Get more that 1 word
+- [ ] Handle some random errors
+- [ ] Get more realistic words!!!
+- [ ] Pass the file as argument
+- [ ] Get more that 1 word (arguments)
+- [ ] Document code
+- [ ] Unit test with Jest
