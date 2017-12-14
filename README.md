@@ -31,9 +31,9 @@ node index.js
 ```
 
 
-## Example of generated words
+## Example of generated words (with a french set)
 
-*sitoretio*, *divar*, *dondi*, *andent*, *cuitex*, *ancilile*, *atlansezite*, *detindele*, *ancerein*
+*bril*, *bonats*, *dondi*, *andent*, *érus*, *ancilile*, *bonphatis*, *premi*, *ancerein*
 
 
 ## Todo

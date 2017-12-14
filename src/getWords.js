@@ -1,12 +1,16 @@
 const fs = require('fs')
+const {promisify} = require('util')
+const readFileAsync = promisify(fs.readFile)
 
-exports.getWords = function (fileName) {
-  return new Promise((resolve, reject) => {
-    fs.readFile(fileName, 'utf8', (err, data) => {
-      if (err) {
-        reject(err)
-      }
-      resolve(data.split(/\r?\n/))
-    })
-  })
+/**
+ * @async
+ * @param {string} fileName
+ * @returns {string[]} words in the given file
+ */
+exports.getWords = async function (fileName) {
+  const data = await readFileAsync(fileName, {encoding: 'utf8'})
+  return data
+    .split(/\r?\n/)
+    .map(word => word.toLowerCase())
+    .sort()
 }

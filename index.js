@@ -8,7 +8,7 @@ program
   .parse(process.argv)
 
 gw.getWords('./data-set/' + program.file + '.txt')
-  .then(words => words.filter(word => word.toLowerCase() === word))
   .then(words => {
     console.log(wg.wordsGenerator(words, program.quantity))
   })
+

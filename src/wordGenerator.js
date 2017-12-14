@@ -1,6 +1,6 @@
 const ws = require('./wordsStats')
-const wr = require('./weightRand.js')
-const alphabet = require('./alphabet.js')
+const wr = require('./weightRand')
+const alphabet = require('./alphabet')
 
 /**
  * Generate multiple words based on a set of words
@@ -27,7 +27,7 @@ exports.wordsGenerator = function (words, quantity = 1) {
 }
 
 /**
- * Generate a new word base on matrix pass into parameters
+ * Generate a new word based on a matrix passed in parameters
  *
  * @param {Object} wordsLengthStats (matrix)
  * @param {Object} firstLetterStats (matrix)
